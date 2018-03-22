@@ -1,0 +1,72 @@
+#carousel {
+  margin: 0 auto;
+  width: 400px;
+  height: 260px;
+  border: 2px solid black;
+  overflow: hidden;
+  position: relative;
+}
+
+#carousel ul {
+  margin: 0;
+  padding: 0;
+  width: 2000px;
+  overflow: hidden;
+}
+
+#carousel ul li {
+  list-style-type: none;
+  width: 400px;
+  height: 260px;
+  float: left;
+}
+
+#carousel ul li img {
+  width: 100%;
+}
+
+#carousel .indicators {
+  position: absolute;
+  bottom: 25px;
+  font-size: 0;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#carousel .indicators li {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin: 0 2px;
+}
+
+#carousel .indicators li.active {
+  background: #fff;
+}
+
+#left-control,
+#right-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  text-shadow: 2px 2px #333;
+}
+
+#left-control:hover,
+#right-control:hover {
+  cursor: pointer;
+}
+
+#left-control {
+  left: 15px;
+}
+
+#right-control {
+  right: 15px;
+}
+/*# sourceMappingURL=style.css.map */
